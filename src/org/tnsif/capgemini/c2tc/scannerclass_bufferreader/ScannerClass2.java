@@ -1,44 +1,40 @@
-package org.tnsif.capgemini.c2tc.scannerclass_bufferreader;
+package org.tnsif.capgemini.c2tc.scannerClass_bufferReader;
 
 import java.util.Scanner;
+
 public class ScannerClass2 {
-	//Import the Scanner class
-	//Create a scanner object
-	//prompt the user for input
-	//Read input using scanner method
-	//Validate
-	//Close the scanner
+
 	public static void main(String[] args) {
-		Scanner scan=new Scanner(System.in);
-		System.out.println("Enter your name");
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter your name: ");
 		String name=scan.nextLine();
 		
-		System.out.println("Enter your age");
+		System.out.println("Enter your age: ");
 		int age=scan.nextInt();
 		
-		System.out.println("Enter your Height ");
+		System.out.println("Enter your Height: ");
 		float height=scan.nextFloat();
 		
 		System.out.println("Are you a student?");
 		boolean isstdent=scan.nextBoolean();
 		
-		System.out.println("Enter your aadhar number");
+		System.out.println("Enter your aadhar number: ");
 		long aadhar=scan.nextLong();
 		scan.nextLine();
 		
-		System.out.println("Enter your favorite teacher");
+		System.out.println("Enter your favorite teacher: ");
 		String teacher=scan.nextLine();
 		
-		System.out.println("Enter your hobby");
+		System.out.println("Enter your hobby: ");
 		String hobby=scan.nextLine();
 		
-		System.out.println("Enter your daily reading time in minutes");
+		System.out.println("Enter your daily reading time in minutes: ");
 		byte readingtime=scan.nextByte();
 		
-		System.out.println("Enter your CGPA");
+		System.out.println("Enter your CGPA: ");
 		double cgpa=scan.nextDouble();
 		
-		System.out.println("Enter no of siblings you have");
+		System.out.println("Enter number of siblings you have: ");
 		short siblings=scan.nextShort();
 		
 		
@@ -55,7 +51,7 @@ public class ScannerClass2 {
 		System.out.println("siblings" +siblings);
 		
 		scan.close();
+
 	}
-	
 
 }

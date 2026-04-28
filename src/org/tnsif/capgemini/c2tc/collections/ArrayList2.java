@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,6 @@ public class ArrayList2 {
 		System.out.println(al);
 		al.remove(3);
 		System.out.println(al);
-			
-
 	}
 
 }

@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.List;
 import java.util.Vector;
@@ -13,11 +13,11 @@ public class VectorDemo2 {
 			for(int i=1;i<5;i++)
 			{
 				numbers.add(i);
-				System.out.println("Thread 1 added " + i);
+				System.out.println("Thread 1 added: " + i);
 			}
 		}
 				
-	);
+		);
 		//remove elements from the vector
 				//thread 2
 		
@@ -39,7 +39,7 @@ public class VectorDemo2 {
 		thread1.join();
 		thread2.join();
 		
-		System.out.println("Numbers left in the vector" + numbers);
+		System.out.println("Numbers left in the vector: " + numbers);
 		
 	}
 

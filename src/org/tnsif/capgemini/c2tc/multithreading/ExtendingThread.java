@@ -1,11 +1,10 @@
-package org.tns.capgemini.c2tc.multithreading;
-
+package org.tnsif.capgemini.c2tc.MultiThreading;
 
 class Eclipse extends Thread
 {
 	public void run()
 	{
-		System.out.println("Eclipse id" + "  " + Thread.currentThread().getId());
+		System.out.println("Eclipse id: "  + Thread.currentThread().getId());
 	}
 }
 
@@ -13,17 +12,16 @@ class OneNote extends Thread
 {
 	public void run()
 	{
-		System.out.println("OneNote id" + "  " + Thread.currentThread().getId());
+		System.out.println("OneNote id: " + Thread.currentThread().getId());
 	}
 }
 class Chrome extends Thread
 {
 	public void run()
 	{
-		System.out.println("chrome id" + "  " + Thread.currentThread().getId());
+		System.out.println("chrome id: " + Thread.currentThread().getId());
 	} 
 }
-
 
 public class ExtendingThread {
 
@@ -35,9 +33,8 @@ public class ExtendingThread {
 //		Chrome obj2 =new Chrome();
 //		obj2.start();
 		for (int i=0;i<5;i++) {
-		System.out.println("Main method thread id is " + "  " + Thread.currentThread().getId());
-		
+		System.out.println("Main method thread id is: " + Thread.currentThread().getId());	
+		}
 	}
 
-}
 }

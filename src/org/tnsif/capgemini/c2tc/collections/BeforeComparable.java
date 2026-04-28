@@ -1,5 +1,4 @@
-
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 class Person5{
 	String name;
@@ -13,23 +12,18 @@ class Person5{
 	
 		void displayInfo()
 		{
-			System.out.println("Name  " + name+"Age  " +age);
-			
+			System.out.println("Name: " + name+" Age: " +age);
+
 		}
 	
 }
 
-
 public class BeforeComparable {
 
 	public static void main(String[] args) {
-		Person5 person1=new Person5("baskar ",34);
-		Person5 person2=new Person5("anil  ",36);
+		Person5 person1=new Person5("Bhaskar ",34);
+		Person5 person2=new Person5("Anil  ",36);
 		person1.displayInfo();
 		person2.displayInfo();
-		
-		
-		
 	}
-
 }

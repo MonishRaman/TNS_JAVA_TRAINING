@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.TreeSet;
 
@@ -9,8 +9,8 @@ public class TreeSetDemo {
 		set.add("Cherry");
 		set.add("Banana");
 		set.add("Apple");
-//		set.add(null); // it will not allow ,throws an exception
-		System.out.println("Treeset " +set);
+		//set.add(null); // it will not allow ,throws an exception
+		System.out.println("Treeset: " +set);
 
 	}
 

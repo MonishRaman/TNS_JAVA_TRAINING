@@ -1,5 +1,4 @@
-package org.tns.capgemini.c2tc.multithreading;
-
+package org.tnsif.capgemini.c2tc.MultiThreading;
 
 class Sleep extends Thread
 {
@@ -7,7 +6,7 @@ class Sleep extends Thread
 	{
 		for (int i=0;i<5;i++)
 		{
-			System.out.println("sleep id" + "  " + Thread.currentThread().getId());
+			System.out.println("Sleep id: " + Thread.currentThread().getId());
 			try
 			{
 				sleep(2000); //1 sec
@@ -19,8 +18,7 @@ class Sleep extends Thread
 	}
 }
 
-public class SleepMethod 
-{
+public class SleepMethod {
 
 	public static void main(String[] args) {
 		Sleep obj=new Sleep ();

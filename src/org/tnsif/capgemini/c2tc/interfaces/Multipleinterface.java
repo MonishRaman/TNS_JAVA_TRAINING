@@ -1,30 +1,29 @@
 package org.tnsif.capgemini.c2tc.interfaces;
 
-interface Printer
-{
+interface Printer{
 	void print(String message);
 }
+
 interface Scanner{
 	void scan(String document);
 }
 
-class MultiFunction implements Printer,Scanner
-{
+class MultiFunction implements Printer,Scanner{
 
 	@Override
 	public void scan(String document) {
-		System.out.println("Scanning" + document);
+		System.out.println("Scanning: " + document);
 		
 	}
 
 	@Override
 	public void print(String message) {
-		System.out.println("Printing" +message );
+		System.out.println("Printing: " +message );
 		
 	}
 	
 }
-public class Multipleinterface {
+public class MultipleInterface {
 
 	public static void main(String[] args) {
 		MultiFunction device=new MultiFunction();

@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.LinkedHashSet;
 
@@ -11,7 +11,7 @@ public class LinkedListSetDemo {
 		set.add("apple");
 		set.add(null);
 		set.add(null);
-		System.out.println("LinkedHashSet   " + set);
+		System.out.println("Linked HashSet: " + set);
 	}
 
 }

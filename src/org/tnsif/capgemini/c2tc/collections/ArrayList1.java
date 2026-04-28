@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,13 +24,12 @@ public class ArrayList1 {
 		}
 		
 		for (String fruit:fruits) {
-		System.out.println(fruit);
-		
+			System.out.println(fruit);
 		}
 		
-			fruits.clear();
-			System.out.println("list cleared no of fruits " + fruits.size());
-			System.out.println(fruits);
+		fruits.clear();
+		System.out.println("List cleared.. Number of fruits:  " + fruits.size());
+		System.out.println(fruits);
 	}
 
 }

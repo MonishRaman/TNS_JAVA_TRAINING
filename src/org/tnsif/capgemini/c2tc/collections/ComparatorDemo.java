@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,8 +19,7 @@ class Person7
 	
 	void displayinfo()
 	{
-		System.out.println("Name " + name + "age   "+ age);
-		
+		System.out.println("Name: " + name + ", Age: "+ age);
 	}
 
 }
@@ -46,6 +45,7 @@ class AgeComparator implements Comparator<Person7>
 	}
 	
 }
+
 public class ComparatorDemo {
 
 	public static void main(String[] args) {
@@ -57,7 +57,7 @@ public class ComparatorDemo {
 		//sort by name
 		
 		Collections.sort(people, new NameComparator());
-		System.out.println("sorted by name");
+		System.out.println("Sorted by name");
 		for(Person7 person:people)
 		{
 			person.displayinfo();
@@ -67,11 +67,10 @@ public class ComparatorDemo {
 		//sort by name
 		
 		Collections.sort(people, new AgeComparator());
-		System.out.println("sorted by age");
+		System.out.println("Sorted by age");
 		for(Person7 person:people)
 		{
 			person.displayinfo();
 		}
 	}
-
 }

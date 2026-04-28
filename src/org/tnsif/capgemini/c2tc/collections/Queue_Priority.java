@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -21,9 +21,5 @@ public class Queue_Priority {
 		 System.out.println(qp);
 		 System.out.println(qp.poll());
 		 System.out.println(qp);
-		 
-		 
-
 	}
-
 }

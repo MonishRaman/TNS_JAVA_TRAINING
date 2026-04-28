@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.List;
 import java.util.Vector;
@@ -19,7 +19,7 @@ public class VectorDemo1 {
 		System.out.println(numbers);
 		
 		//access an element
-		System.out.println("First number : " + numbers.get(0));
+		System.out.println("First number: " + numbers.get(0));
 		
 		//modify an elemenet
 		numbers.set(1,25);
@@ -47,12 +47,13 @@ public class VectorDemo1 {
 		//get the size of the vector
 		
 		
-		System.out.println("size of the vector :"  + numbers.size());
+		System.out.println("Size of the vector: "  + numbers.size());
 		
 		numbers.clear();
 		
-		System.out.println("After clear no of numbers persent is" + numbers);
+		System.out.println("After clear Number of numbers persent is: " + numbers);
 		
 	}
+
 
 }

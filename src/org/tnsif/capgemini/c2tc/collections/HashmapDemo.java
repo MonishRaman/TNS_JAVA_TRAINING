@@ -1,10 +1,11 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.Map;
 import java.util.HashMap;
 
-public class HashmapDemo {
-    public static void main(String[] args) {
+public class HashMapDemo {
+
+	public static void main(String[] args) {
         // Create a HashMap with Integer keys and Integer values
         HashMap<Integer, Integer> map = new HashMap<>();
 
@@ -54,4 +55,5 @@ public class HashmapDemo {
         System.out.println("Map after clearing: " + map);
         
     }
+
 }

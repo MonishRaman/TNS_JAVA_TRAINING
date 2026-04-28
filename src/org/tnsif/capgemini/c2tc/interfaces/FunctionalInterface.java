@@ -1,22 +1,17 @@
 package org.tnsif.capgemini.c2tc.interfaces;
 
-class GreetingsImp implements InterfaceDemo3
-{
-
+class GreetingsImp implements InterfaceDemo3{
 	@Override
 	public void sayHello(String Name) {
-		System.out.println("Hello" + "   "+ Name + " !");
-		
+		System.out.println("Hello " + Name);
 	}
 	
 }
 
 public class FunctionalInterface {
-
 	public static void main(String[] args) {
-		InterfaceDemo3 obj=new GreetingsImp();
-		obj.sayHello("Vishu");
+		InterfaceDemo3 obj = new GreetingsImp();
+		obj.sayHello("Kunal....");
 
 	}
-
 }

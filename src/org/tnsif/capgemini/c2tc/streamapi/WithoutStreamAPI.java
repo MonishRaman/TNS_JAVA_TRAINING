@@ -1,13 +1,14 @@
-package org.tns.capgemini.c2tc.streamapi;
-
+package org.tnsif.capgemini.c2tc.StreamAPI;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 public class WithoutStreamAPI {
-    public static void main(String[] args) {
+
+	public static void main(String[] args) {
         // Original list of numbers
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+       List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         // List to hold the results
        List<Integer> result = new ArrayList<>();
        	// Iterate over each number in the original list
@@ -23,6 +24,5 @@ public class WithoutStreamAPI {
         // Print the result list
         System.out.println("Doubled even numbers: " + result);
     }
+
 }
-
-

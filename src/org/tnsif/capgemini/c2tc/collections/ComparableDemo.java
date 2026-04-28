@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,21 +17,15 @@ class Person6 implements Comparable<Person6>
 	
 	void displayinfo()
 	{
-		System.out.println("Name " + name + "age   "+ age);
+		System.out.println("Name: " + name + ", Age: "+ age);
 	}
 
-
-	
 	//sort by name
-	
 	public int compareTo(Person6 other) {
-		
 		return this.name.compareTo(other.name);
 	}
 	
 }
-
-
 
 public class ComparableDemo {
 
@@ -46,8 +40,7 @@ public class ComparableDemo {
 		for(Person6 person:people)
 		{
 			person.displayinfo();
-			}
-
+		}
 	}
 
 }

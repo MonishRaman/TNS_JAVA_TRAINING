@@ -1,5 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
-
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.Stack;
 
@@ -16,32 +15,32 @@ public class StackDemo1 {
 		
 		//displaying the stack
 		
-		System.out.println("Stack after push operation" + stack);
+		System.out.println("Stack after push operation: " + stack);
 		
 		///looking at the top element without removing it
 		
-		System.out.println("top element" + stack.peek()); //40
+		System.out.println("top element: " + stack.peek()); //40
 		
 		//Pop operation :Removing th element 
-		System.out.println("Element popped" + stack.pop());
-		System.out.println("Stack after pop" + stack);
+		System.out.println("Element popped: " + stack.pop());
+		System.out.println("Stack after pop: " + stack);
 		
 		stack.clear();
 		
 		//check if stack is empty
 		
-		System.out.println("is stack empty " + stack.isEmpty());
+		System.out.println("Is stack empty:  " + stack.isEmpty());
 		
 		//searching for an element in the stack
 		 int position=stack.search(20);
 		 
 		 if(position !=-1)
 		 {
-			 System.out.println("Element 2 found at the position  " + position);
+			 System.out.println("Element 2 found at the position: " + position);
 		 }
 		 else
 		 {
-			 System.out.println("Element 2 not found in the stack " +position);
+			 System.out.println("Element 2 not found in the stack: " +position);
 		 }
 	}
 

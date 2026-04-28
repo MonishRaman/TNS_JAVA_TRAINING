@@ -1,19 +1,14 @@
 package org.tnsif.capgemini.c2tc.interfaces;
 
-interface Vehicle
-{
+interface Vehicle{
 	void start();
 	void stop();
 
 	int Max_speed=120;
-
 }
 
-class Car5 implements Vehicle 
-{
-   private String model;
-   
-   
+class Car5 implements Vehicle {
+    private String model;
    
 	public Car5(String model) {
 		this.model = model;
@@ -21,23 +16,17 @@ class Car5 implements Vehicle
 
 	@Override
 	public void start() {
-		
-		System.out.println("car" + model +" is staring ");
+		System.out.println("Car " + model +" is staring ");
 	}
 
 	@Override
 	public void stop() {
-		
-		System.out.println("car" + model +" is stoping ");
+		System.out.println("Car " + model +" is stoping ");
 	}
-	
 }
 
-class Bike implements Vehicle
-{
-   private String type;
-   
-   
+class Bike implements Vehicle{
+    private String type;
    
 	public Bike(String type) {
 		this.type = type;
@@ -45,16 +34,13 @@ class Bike implements Vehicle
 
 	@Override
 	public void start() {
-		
-		System.out.println("car" +type+" is staring ");
+		System.out.println("Car " +type+" is staring ");
 	}
 
 	@Override
 	public void stop() {
-		
-		System.out.println("car" + type+" is stoping ");
+		System.out.println("Car " + type+" is stoping ");
 	}
-	
 }
 
 public class InterfaceDemo2 {
@@ -69,8 +55,6 @@ public class InterfaceDemo2 {
 		bike.start();
 		bike.stop();
 		
-		System.out.println("maximun speed of vehicles" +"     " +  Vehicle.Max_speed );
-		
+		System.out.println("Maximun speed of vehicle is: " +  Vehicle.Max_speed );
 	}
-
 }

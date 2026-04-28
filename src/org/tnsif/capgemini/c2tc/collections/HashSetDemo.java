@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.HashSet;
 
@@ -14,8 +14,5 @@ public class HashSetDemo {
 		set.add("Apple");
 		
 		System.out.println("Hashset  " + set);
-		
-
 	}
-
 }

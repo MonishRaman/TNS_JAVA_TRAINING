@@ -1,4 +1,4 @@
-package org.tns.capgemini.c2tc.collections;
+package org.tnsif.capgemini.c2tc.Collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class AllSetMethods {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		Set<String> set=new HashSet<>();
 		
@@ -16,7 +16,7 @@ public class AllSetMethods {
 		set.add("Apple"); //duplicate will not be added
 
 		//display the set
-		System.out.println("Intial set" +set);
+		System.out.println("Intial set: " +set);
 		
 		//removing an element
 		set.remove("Banana");
@@ -26,24 +26,24 @@ public class AllSetMethods {
 		//checking if an element is present
 		
 		boolean Containcherry=set.contains("Cherry");
-		System.out.println("Set contains 'cherry'"+ Containcherry);
+		System.out.println("Set contains 'cherry': "+ Containcherry);
 		
 		
 		int size=set.size();
-		System.out.println("Size of the set" + size);
+		System.out.println("Size of the set: " + size);
 		
 		//checking if the set is empty
 		boolean isEmpty=set.isEmpty();
-		System.out.println("is the set empty" +isEmpty ) ;
+		System.out.println("is the set empty: " +isEmpty );
 		
-		//clearning elements from the set
+		//cleaning elements from the set
 		set.clear();
-		System.out.println("Set after cleaning" + set);
+		System.out.println("Set after cleaning: " + set);
 		
 		set.add("Dates");
 		set.add("Elderberry");
 		
-		//iterating over the elemenst of the set
+		//iterating over the elements of the set
 		System.out.println("Iterating over the set");
 		Iterator<String> it= set.iterator();
 		while(it.hasNext())

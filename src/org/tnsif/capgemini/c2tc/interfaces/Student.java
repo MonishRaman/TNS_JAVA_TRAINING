@@ -1,8 +1,6 @@
 package org.tnsif.capgemini.c2tc.interfaces;
 
-public class Student implements Registerable
-{
-	
+public class Student implements Registerable{
 	private int id;
 	private String name;
 	private double fees;
@@ -47,6 +45,4 @@ public class Student implements Registerable
 	public void setCourse(String course) {
 		this.course = course;
 	}
-	
-	
 }
